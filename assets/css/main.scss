@@ -1,0 +1,8 @@
+$sans-serif: 'Noto Sans KR';
+$monospace: 'Ubuntu Mono';
+$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
+
+@font-face {
+    font-family: "NanumSquareRoundOTFB";
+    src: url("../font/NanumSquareNeoOTF-aLt.otf");
+}

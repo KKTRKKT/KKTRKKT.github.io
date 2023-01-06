@@ -1,6 +1,5 @@
 ---
-title: About
+title: 소개
 ---
-# About page 
 
-This page tells you a little bit about me.
+KKTRKKT의 기술블로그에 오신걸 환영합니다 :-)

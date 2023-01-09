@@ -22,6 +22,9 @@ exclude:
 # 2. Installed Gems
 plugins:
 - jekyll-paginate
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
 
 # 3. Gem settings
 paginate: 10 # jekyll-paginate > items per page

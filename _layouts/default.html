@@ -18,7 +18,11 @@
 		{% else %}
 			<link rel="shortcut icon" href="{{ site.logo }}">
 		{% endif %}
-
+		{% feed_meta %}
+		{% seo %}
+		{% if jekyll.environment == "production" %}
+			<script src="my-analytics-script.js"></script>
+		{% endif %}
 	</head>
 	<body>
 

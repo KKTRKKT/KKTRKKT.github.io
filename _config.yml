@@ -66,3 +66,4 @@ logo: "/assets/logo.svg" # Site logo
 description: "들어와주셔서 감사합니다 _ _" # Site description and default description
 url: "https://kktrkkt.github.io" # Site url
 baseurl: ""
+lang: ko_KR

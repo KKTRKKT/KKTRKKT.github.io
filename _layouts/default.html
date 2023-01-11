@@ -4,11 +4,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		{% if page.collectionpage %}
 			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<title>{{ collectiondata.title }} - {{ site.title }}</title>
-		{% elsif page.title %}
-			<title>{{ page.title }} - {{ site.title }}</title>
+			<title>{{ site.title }} - {{ collectiondata.title }}</title>
+		{% elsif page.category %}
+			<title>{{ page.title }} - {{ page.category }}</title>
 		{% else %}
-			<title>{{ site.title }}</title>
+			<title>{{ site.title }} - {{ page.title }}</title>
 		{% endif %}
 
 		<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">

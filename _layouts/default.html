@@ -12,13 +12,12 @@
 		{% endif %}
 
 		<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-
+		<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" title="{{ site.title }} Feed">
 		{% if site.favicon %}
 			<link rel="shortcut icon" href="{{ site.favicon }}">
 		{% else %}
 			<link rel="shortcut icon" href="{{ site.logo }}">
 		{% endif %}
-		{% feed_meta %}
 		{% seo title=false %}
 		{% if jekyll.environment == "production" %}
 			<script async src="https://www.googletagmanager.com/gtag/js?id=G-TT1RGJP8BK"></script>

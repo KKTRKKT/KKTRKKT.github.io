@@ -3,7 +3,7 @@ title: spliterator 사용법
 category: java
 ---
 
-Iterable 기본 메소드로 Spliterater<E> spliterator() 형태를 지닌다.<br/>
+Iterable 기본 메소드로 Spliterater\<E\> spliterator() 형태를 지닌다.<br/>
 .trySplit()을 이용해 컬렉션을 반으로 나눌수 있다.<br/>
 tryAdvance(Consumer action)를 통해 작업을 수행한다.     
 

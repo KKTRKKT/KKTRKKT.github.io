@@ -1,5 +1,5 @@
 ---
-title: JUnit5 Assertion
+title: JUnit5 Assertion API
 category: JUnit5
 ---
 

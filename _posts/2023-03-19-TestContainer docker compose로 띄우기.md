@@ -3,10 +3,10 @@ title: TestContainer docker compose로 띄우기
 category: JUnit5
 ---
 
-DockerComposeContainer 등록 애노테이션
+DockerComposeContainer 등록 애노테이션<br>
 @ClassRule
 
-설정 함수
+설정 함수<br>
 withExposedService
 
 <!-- more -->

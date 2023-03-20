@@ -3,10 +3,10 @@ title: TestContainer의 정보를 스프링 Context에 추가하기
 category: JUnit5
 ---
 
-Context 설정 애노테이션 
+Context 설정 애노테이션 <br>
 @ContextConfiguration
 
-Context 설정 API
+Context 설정 API<br>
 org.springframework.context.ApplicationContextInitializer
 
 

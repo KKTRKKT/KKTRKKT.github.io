@@ -3,10 +3,10 @@ title: TestContainer 일반 컨테이너
 category: JUnit5
 ---
 
-일반 컨테이너 API
+일반 컨테이너 API<br>
 GenericContainer
 
-설정 함수
+설정 함수<br>
 withExposedPorts, withEnv, waitingFor
 
 <!-- more -->

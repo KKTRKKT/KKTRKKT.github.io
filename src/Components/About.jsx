@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "6년차 웹개발자로 일하고 있고, 8개의 프로젝트를 경험했습니다.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+    "Java, Kotlin",
+    "Maven, Spring Boot, JPA, Security",
+    "PostgresSQL, MariaDB, Oracle, MySQL, Redis",
+    "Docker, Kubernetes",
+    "TDD, DDD",
+    "IntelliJ, Figma, Git, Github Actions"
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "저는 5년 6개월 동안 다양한 웹 시스템 구축 및 고도화 프로젝트를 수행하며, 효율적인 개발 환경과 프레임워크 적용을 통해 웹 개발 분야에서 성과를 달성한 경험을 가지고 있습니다.";
 
 const About = () => {
   return (
@@ -60,7 +60,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>About Me</h2>
         <p className="large">{description}</p>
         <hr />
         <ul

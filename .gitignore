@@ -22,3 +22,5 @@ node_modules/
 .parcel-cache
 
 .DS_Store
+
+.idea

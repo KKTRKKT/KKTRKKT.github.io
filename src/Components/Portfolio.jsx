@@ -25,7 +25,7 @@ const projectList = [
   {
     title: "인천공항공사 공공데이터개방플랫폼 구축",
     summary:
-        "각 부서에 관리하던 openAPI를 Gateway 방식으로 전환해 활용 편의성을 향상시킵니다",
+        "각 부서에 관리하던 openAPI를 Gateway 방식으로 전환해 활용 편의성을 향상시킵니다.",
     url: "https://odp.airport.kr/apiPortal/main",
   },
 ];

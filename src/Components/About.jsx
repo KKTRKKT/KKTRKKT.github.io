@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "6년차 웹개발자로 일하고 있고, 8개의 프로젝트를 경험했습니다.";
+  "6년차 풀스택 개발자로 일하고 있는 이성현입니다.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -35,7 +35,7 @@ const skillsList = [
     "Maven, Spring Boot, JPA, Security",
     "PostgresSQL, MariaDB, Oracle, MySQL, Redis",
     "Docker, Kubernetes",
-    "TDD, DDD",
+    "TDD, DDD, MSA",
     "IntelliJ, Figma, Git, Github Actions"
 ];
 
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "저는 5년 6개월 동안 다양한 웹 시스템 구축 및 고도화 프로젝트를 수행하며, 효율적인 개발 환경과 프레임워크 적용을 통해 웹 개발 분야에서 성과를 달성한 경험을 가지고 있습니다.";
+  "저는 5년 6개월 동안 다양한 웹 시스템 구축 및 고도화 프로젝트를 수행하며, 효율적인 개발 환경과 프레임워크 적용을 통해 실력을 쌓아왔습니다.";
 
 const About = () => {
   return (

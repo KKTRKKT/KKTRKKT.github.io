@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "이성현",
-  title: "Web Developer & Backend",
+  title: "Full Stack Developer",
   email: "paulhana6006@gmail.com",
   gitHub: "kktrkkt",
   // instagram: "microsoft",

@@ -27200,23 +27200,24 @@ var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackground
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "6년차 풀스택 개발자로 일하고 있는 이성현입니다.";
+ */ const description = "데이터 중심의 문제 해결에 강점을 가진 풀스택 개발자입니다.  \n대규모 데이터 처리와 품질 관리 전산화 등 다양한 산업 분야에서 안정적이고 확장성 있는 솔루션을 구축한 경험이 있습니다.  ";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Java, Kotlin",
-    "Maven, Spring Boot, JPA, Security",
-    "PostgresSQL, MariaDB, Oracle, MySQL, Redis",
-    "Docker, Kubernetes",
-    "TDD, DDD, MSA",
-    "IntelliJ, Figma, Git, Github Actions"
+    "Backend: Java(Spring Boot, JPA, Security), MyBatis, Querydsl, Hasim Framework",
+    "Frontend: Vue.js, React(Next.js), Thymeleaf, WebSquare, HTML5, CSS, Bootstrap",
+    "Database: PostgreSQL, MariaDB, Oracle, Redis",
+    "Infra / DevOps: Docker, Nginx, Prometheus, Grafana",
+    "Data / AI: iRODS, Solr, OpenAPI, netCDF, 데이터 분석 및 통계 자동화",
+    "ERP / RPA: SAP 연동, 전사 자원관리, 자동화 시스템 구축",
+    "Collaboration & Tools: Maven, npm, Git, Jenkins, Eclipse, IntelliJ", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "저는 5년 6개월 동안 다양한 웹 시스템 구축 및 고도화 프로젝트를 수행하며, 효율적인 개발 환경과 프레임워크 적용을 통해 실력을 쌓아왔습니다.";
+ */ const detailOrQuote = "저는 복잡한 업무 프로세스를 단순화하고 데이터를 기반으로 한 의사결정을 가능하게 하는 시스템 개발에 열정을 가지고 있습니다.  \n연구 데이터 플랫폼, 제조 품질관리, ERP 기반 업무자동화 프로젝트를 수행하며 고객사의 실제 문제 해결과 성과 창출에 집중해왔습니다.  \n‘좋은 소프트웨어는 조직의 일하는 방식을 근본적으로 바꿀 수 있다’는 믿음으로 안정성과 확장성을 갖춘 아키텍처를 설계\xb7구현합니다.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27228,7 +27229,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 53,
+                lineNumber: 57,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27244,7 +27245,7 @@ const About = ()=>{
                         children: "About Me"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27252,18 +27253,18 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         style: {
                             textAlign: "left",
-                            columns: 2,
+                            columns: 1,
                             fontSize: "1.25rem",
                             margin: "2rem 3rem",
                             gap: "3rem"
@@ -27272,17 +27273,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 76,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27292,19 +27293,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 58,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 52,
+        lineNumber: 56,
         columnNumber: 5
     }, undefined);
 };
